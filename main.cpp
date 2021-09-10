@@ -17,7 +17,7 @@ std::vector<int> kmp(const std::string &s) {
         }
         p[i] = j;
     }
-    return p;///
+    return p;//
 }
 
 int main() {
